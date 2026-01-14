@@ -1,0 +1,33 @@
+.proposal {
+  padding: 0px 100px 70px 100px;
+}
+.proposal-wrapper {
+  padding: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+  background-color: #f3f3f3;
+  border-radius: 45px;
+}
+.proposal-block {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  align-items: start;
+}
+.proposal-block__title {
+  font-family: SpaceGrotesk Medium;
+  font-size: 30px;
+}
+.proposal-block__description {
+  font-family: SpaceGrotesk Regular;
+  font-size: 18px;
+}
+.proposal-block__link {
+  background-color: black;
+}
+.proposal__illustration {
+  margin: -90px 0 -90px 0;
+}

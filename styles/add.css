@@ -1,0 +1,24 @@
+.add {
+  padding: 0px 100px 70px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+}
+.add-block {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  align-items: start;
+}
+.add-block__title {
+  font-family: SpaceGrotesk Medium;
+  font-size: 60px;
+}
+.add-block__description {
+  font-family: SpaceGrotesk Regular;
+  font-size: 20px;
+}
+.add-block__illustration {
+}

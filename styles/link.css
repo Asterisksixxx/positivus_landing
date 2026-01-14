@@ -1,0 +1,51 @@
+.link_black {
+  font-family: SpaceGrotesk Regular;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 20px 35px;
+  background-color: black;
+  border-radius: 15px;
+  display: inline-block;
+}
+.link_black_right {
+  font-family: SpaceGrotesk Regular;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 20px 35px;
+  background-color: black;
+  border-radius: 15px;
+  align-self: flex-end;
+  display: inline-block;
+}
+.link_black_contact {
+  flex: 1 1 100%;
+  font-family: SpaceGrotesk Regular;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 20px 15px 35px 15px;
+  background-color: black;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 730px;
+}
+.cases-link {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: start;
+  align-items: center;
+}
+.cases-link__text {
+  color: #b9ff66;
+}
+.cases-link__arrow {
+  color: #b9ff66;
+  fill: #b9ff66;
+}
+.link_black_right:hover,
+.link_black:hover {
+  cursor: pointer;
+}

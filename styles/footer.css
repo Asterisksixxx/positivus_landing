@@ -1,0 +1,124 @@
+.footer {
+  padding: 0 100px;
+}
+.footer-wrapper {
+  background-color: black;
+  border-radius: 45px 45px 0 0;
+}
+.footer-header {
+  padding: 55px 60px 70px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  gap: 20px;
+}
+.footer-logo {
+  flex: 1 1 30%;
+}
+.footer-nav {
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-family: SpaceGrotesk Regular;
+  font-size: 20px;
+}
+
+.footer-nav__link {
+  transition: all 0.3s ease;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  text-wrap: nowrap;
+}
+.footer-nav__link:hover {
+  transition: all 0.3s ease;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+}
+.footer-social {
+  flex: 1 1 30%;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+.footer-body {
+  padding: 0 60px 50px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 27px;
+}
+.footer-contact__headline {
+  background-color: #b9ff66;
+  padding: 0 7px;
+  border-radius: 3px;
+  font-family: SpaceGrotesk Medium;
+  font-size: 20;
+}
+.footer-contact__main {
+  color: white;
+  font-family: SpaceGrotesk Regular;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-mailing {
+  background-color: #292a32;
+  border-radius: 14px;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.footer-mailing__input {
+  background-color: #00000000;
+  border: 1px solid white;
+  border-radius: 14px;
+  padding: 22px 0 22px 35px;
+  font-family: SpaceGrotesk Regular;
+  font-size: 20px;
+}
+.footer-mailing__button {
+  font-family: SpaceGrotesk Regular;
+  font-size: 20px;
+  background-color: #b9ff66;
+  padding: 22px 35px;
+  border-radius: 14px;
+  text-wrap: nowrap;
+  border: none;
+}
+.footer-policy {
+  padding: 0 60px 50px 60px;
+}
+.footer-policy__content {
+  padding-top: 50px;
+  border-top: 1px solid white;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.first {
+  color: white;
+  font-family: SpaceGrotesk Regular;
+  font-size: 20px;
+}
+.second {
+  color: white;
+  font-family: SpaceGrotesk Regular;
+  font-size: 20px;
+  text-decoration: underline white;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.cases {
+  padding: 80px 100px 140px 100px;
+}
+.cases__headline {
+  padding-bottom: 80px;
+}
+.cases-block {
+  padding: 70px 60px 70px 60px;
+  background-color: black;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+.cases-column {
+  flex-basis: 25%;
+  font-family: SpaceGrotesk Regular;
+  font-size: 22px;
+  color: white;
+  line-height: 2;
+}
+
+.cases-column__text {
+  padding-bottom: 20px;
+}
+.cases__vertical-line {
+  border-left: 3px solid white;
+  height: 150px;
+}
