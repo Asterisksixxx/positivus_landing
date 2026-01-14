@@ -18,12 +18,8 @@
   align-items: start;
 }
 .proposal-block__title {
-  font-family: SpaceGrotesk Medium;
-  font-size: 30px;
 }
 .proposal-block__description {
-  font-family: SpaceGrotesk Regular;
-  font-size: 18px;
 }
 .proposal-block__link {
   background-color: black;

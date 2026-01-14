@@ -6,7 +6,7 @@
 }
 .cases-block {
   padding: 70px 60px 70px 60px;
-  background-color: black;
+  background-color: var(--black-wrapper);
   border-radius: 45px;
   display: flex;
   flex-direction: row;
@@ -17,8 +17,6 @@
 }
 .cases-column {
   flex-basis: 25%;
-  font-family: SpaceGrotesk Regular;
-  font-size: 22px;
   color: white;
   line-height: 2;
 }

@@ -18,7 +18,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: var(--black-wrapper);
   border-radius: 45px;
 }
 .scroll-container {
@@ -40,14 +40,10 @@
 }
 .scroll-page {
   flex: 0 0 40%;
-
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: space-between;
   scroll-snap-align: center;
-  font-family: SpaceGrotesk Regular;
-  font-size: 22px;
   gap: 40px;
 }
 
@@ -57,12 +53,13 @@
   color: white;
   padding: 50px;
   position: relative;
+  line-height: 1.7em;
 }
 .scroll-text__decoration {
   width: 30px;
   height: 30px;
   position: absolute;
-  background-color: black;
+  background-color: var(--black-wrapper);
   border: 2px solid #b9ff66;
   border-top: none;
   border-right: none;
@@ -73,6 +70,7 @@
 .scroll-sender {
   color: white;
   margin-left: 15%;
+  line-height: 2em;
 }
 .sender-name {
   color: #b9ff66;

@@ -7,11 +7,5 @@
 }
 .headline__title {
   background-color: #b9ff66;
-  font-family: SpaceGrotesk Medium;
-  font-size: 40px;
   padding: 7px;
-}
-.headline__description {
-  font-family: SpaceGrotesk Regular;
-  font-size: 18px;
 }

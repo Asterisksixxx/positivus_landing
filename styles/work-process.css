@@ -48,19 +48,14 @@
   outline: none;
 }
 .panel-header__number {
-  font-family: SpaceGrotesk Medium;
-  font-size: 60px;
 }
 .panel-header__title {
-  font-family: SpaceGrotesk Medium;
-  font-size: 30px;
   flex: 1;
 }
 .process-panel__description {
   padding-top: 30px;
   margin-top: 30px;
-  font-family: SpaceGrotesk Regular;
-  font-size: 20px;
+
   border-top: 3px solid black;
   transition: 1s;
 }

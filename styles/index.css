@@ -1,7 +1,7 @@
 @import "reset.css";
 @import "fonts.css";
 @import "navigation.css";
-@import "add.css";
+@import "marketing.css";
 @import "sponsors.css";
 @import "headline.css";
 @import "service.css";
@@ -14,15 +14,30 @@
 @import "contact.css";
 @import "footer.css";
 @import "touchable.css";
+@import "variables.css";
 body {
   overflow: auto;
 }
-.link-border {
-  padding: 5px;
-  background-color: black;
-  border-radius: 14px;
+.pharagraph_font {
+  font-family: SpaceGrotesk Regular;
+  font-size: 22px;
 }
-
+.title_font_h1 {
+  font-family: SpaceGrotesk Medium;
+  font-size: 60px;
+}
+.subtitle_font_h2 {
+  font-family: SpaceGrotesk Medium;
+  font-size: 40px;
+}
+.subtitle_font_h3 {
+  font-family: SpaceGrotesk Medium;
+  font-size: 30px;
+}
+.subtitle_font_h4 {
+  font-family: SpaceGrotesk Medium;
+  font-size: 20px;
+}
 /* <div class="slider">
     <div class="slider__container">
       <div class="slider__item">1</div>

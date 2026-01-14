@@ -1,31 +1,25 @@
 .link_black {
-  font-family: SpaceGrotesk Regular;
-  font-size: 20px;
   color: white;
   text-decoration: none;
   padding: 20px 35px;
-  background-color: black;
+  background-color: var(--black-wrapper);
   border-radius: 15px;
   display: inline-block;
 }
 .link_black_right {
-  font-family: SpaceGrotesk Regular;
-  font-size: 20px;
   color: white;
   text-decoration: none;
   padding: 20px 35px;
-  background-color: black;
+  background-color: var(--black-wrapper);
   border-radius: 15px;
   align-self: flex-end;
   display: inline-block;
 }
 .link_black_contact {
   flex: 1 1 100%;
-  font-family: SpaceGrotesk Regular;
-  font-size: 20px;
   color: white;
   text-decoration: none;
-  padding: 20px 15px 35px 15px;
+  padding: 20px 15px 20px 15px;
   background-color: black;
   border-radius: 15px;
   width: 100%;

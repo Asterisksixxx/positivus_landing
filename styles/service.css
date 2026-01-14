@@ -47,8 +47,6 @@
   align-items: start;
 }
 .card-block__name {
-  font-family: SpaceGrotesk Medium;
-  font-size: 30px;
   padding: 7px;
   border-radius: 7px;
 }
@@ -61,8 +59,6 @@
 }
 
 .link-text {
-  font-family: SpaceGrotesk Regular;
-  font-size: 20px;
 }
 .services-card:nth-child(3n) > .card-block > .card-block__link > .link-text {
   color: white;
