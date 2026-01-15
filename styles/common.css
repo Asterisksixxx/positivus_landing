@@ -1,0 +1,28 @@
+._container {
+  padding: 0 100px;
+}
+
+._text-extra-title {
+  font-family: SpaceGrotesk Medium;
+  font-size: 60px;
+}
+._text-title {
+  font-family: SpaceGrotesk Medium;
+  font-size: 40px;
+}
+._text-extra-subtitle {
+  font-family: SpaceGrotesk Medium;
+  font-size: 30px;
+}
+._text-subtitle {
+  font-family: SpaceGrotesk Medium;
+  font-size: 20px;
+}
+._text-base {
+  font-family: SpaceGrotesk Regular;
+  font-size: 18px;
+  font-weight: 400;
+}
+._text-inline {
+  text-wrap: nowrap;
+}

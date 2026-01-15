@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "fonts.css";
-@import "navigation.css";
+/* deprecated */
+/* @import "navigation.css"; */
 @import "marketing.css";
 @import "sponsors.css";
 @import "headline.css";
@@ -15,68 +16,20 @@
 @import "footer.css";
 @import "touchable.css";
 @import "variables.css";
+
+/* new */
+
+/* components */
+@import "components/logo.css";
+@import "components/navigation.css";
+@import "components/social.css";
+
+/* sections */
+@import "sections/header.css";
+
+/* rest */
+@import "common.css";
+
 body {
   overflow: auto;
 }
-.pharagraph_font {
-  font-family: SpaceGrotesk Regular;
-  font-size: 22px;
-}
-.title_font_h1 {
-  font-family: SpaceGrotesk Medium;
-  font-size: 60px;
-}
-.subtitle_font_h2 {
-  font-family: SpaceGrotesk Medium;
-  font-size: 40px;
-}
-.subtitle_font_h3 {
-  font-family: SpaceGrotesk Medium;
-  font-size: 30px;
-}
-.subtitle_font_h4 {
-  font-family: SpaceGrotesk Medium;
-  font-size: 20px;
-}
-/* <div class="slider">
-    <div class="slider__container">
-      <div class="slider__item">1</div>
-      <div class="slider__item">2</div>
-      <div class="slider__item">3</div>
-      <div class="slider__item">4</div>
-      <div class="slider__item">5</div>
-    </div>
-  </div> */
-/* html,
-body {
-  overflow: hidden;
-}
-.slider {
-  width: 100%;
-  background-color: red;
-  overflow: hidden;
-}
-.slider__container {
-  display: flex;
-  gap: 12px;
-  overflow-x: scroll;
-  scrollbar-width: none;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  user-select: none;
-  -webkit-overflow-scrolling: touch;
-  background-color: yellow;
-}
-.slider__container::-webkit-scrollbar {
-  display: none;
-}
-.slider__item {
-  flex: 0 0 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  scroll-snap-align: center;
-  color: white;
-  background-color: green;
-} */

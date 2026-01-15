@@ -1,0 +1,25 @@
+.navigation {
+}
+.navigation__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.navigation__item {
+  transition: all 0.3s ease;
+}
+
+.navigation__item:hover {
+  transform: scale(1.1);
+}
+.navigation__item:active {
+  transform: scale(0.9);
+}
+
+.navigation__link {
+}
+
+.navigation__text {
+  color: black;
+}
