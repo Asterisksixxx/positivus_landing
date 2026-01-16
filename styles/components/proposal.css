@@ -1,4 +1,8 @@
-.proposal-wrapper {
+.proposal {
+}
+.proposal__container {
+}
+.proposal__body {
   padding: 60px;
   display: flex;
   flex-direction: row;
@@ -8,18 +12,17 @@
   background-color: #f3f3f3;
   border-radius: 45px;
 }
-.proposal-block {
+.proposal__info {
   display: flex;
   flex-direction: column;
-  gap: 55px;
+  gap: 25px;
   align-items: start;
 }
-.proposal-block__title {
+.proposal__title {
 }
-.proposal-block__description {
+.proposal__description {
 }
-.proposal-block__link {
-  background-color: black;
+.proposal__button {
 }
 .proposal__illustration {
   margin: -90px 0 -90px 0;

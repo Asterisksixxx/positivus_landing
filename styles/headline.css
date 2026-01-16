@@ -1,4 +1,6 @@
 .headline {
+}
+.headline__body {
   display: flex;
   flex-direction: row;
   gap: 50px;

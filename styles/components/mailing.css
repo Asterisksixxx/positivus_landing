@@ -1,0 +1,32 @@
+.mailing {
+  background-color: #292a32;
+  border-radius: 14px;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.mailing__input {
+  background-color: #00000000;
+  border: 1px solid white;
+  border-radius: 14px;
+  padding: 22px 0 22px 35px;
+}
+.mailing__button {
+  background-color: #b9ff66;
+  padding: 22px 35px;
+  border-radius: 14px;
+  text-wrap: nowrap;
+  border: none;
+}
+.mailing__button {
+  transition: all 0.3s ease;
+}
+
+.mailing__button:hover {
+  transform: scale(1.1);
+}
+.mailing__button:active {
+  transform: scale(0.9);
+}

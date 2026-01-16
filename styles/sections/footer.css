@@ -1,0 +1,40 @@
+.footer {
+}
+.footer__container {
+}
+.footer__body {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  background-color: var(--wrapper-black);
+  border-radius: 45px 45px 0 0;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.footer__logo {
+  color: white;
+}
+.footer__navigation {
+}
+.footer__navigation .navigation__link {
+  color: white;
+}
+.footer__contact {
+  padding-top: 15px;
+}
+.footer_mailing {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__copyright {
+}
+.footer__line {
+  width: 100%;
+  border: 2px solid white;
+}

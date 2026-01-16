@@ -6,7 +6,7 @@
 }
 .cases-block {
   padding: 70px 60px 70px 60px;
-  background-color: var(--black-wrapper);
+  background-color: var(--wrapper-black);
   border-radius: 45px;
   display: flex;
   flex-direction: row;

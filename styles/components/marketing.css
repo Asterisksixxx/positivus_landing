@@ -1,13 +1,26 @@
 .marketing {
+}
+.marketing__container {
+}
+.marketing__body {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   gap: 100px;
   align-items: center;
 }
-.marketing-block {
+.marketing__info {
   display: flex;
   flex-direction: column;
   gap: 55px;
   align-items: start;
+}
+.marketing__title {
+}
+.marketing__description {
+}
+
+.marketing__link {
+}
+
+.marketing__illustration {
 }

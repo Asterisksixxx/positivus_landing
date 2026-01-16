@@ -1,0 +1,14 @@
+.copyright {
+}
+.copyright__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: white;
+}
+.copyright__item {
+}
+.copyright__link {
+  text-decoration: underline white;
+  cursor: pointer;
+}

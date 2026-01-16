@@ -1,4 +1,6 @@
 :root {
   --global-background: white;
-  --black-wrapper: #191a23;
+  --wrapper-black: #191a23;
+  --wrapper-gray: #f3f3f3;
+  --wrapper-lightgreen: #b9ff66;
 }

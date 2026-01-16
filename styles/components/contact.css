@@ -1,0 +1,18 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: start;
+}
+.contact__headline {
+  background-color: #b9ff66;
+  padding: 0 7px;
+  border-radius: 3px;
+}
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  color: white;
+}

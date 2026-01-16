@@ -2,18 +2,18 @@
 @import "fonts.css";
 /* deprecated */
 /* @import "navigation.css"; */
-@import "marketing.css";
-@import "sponsors.css";
+/* @import "footer.css"; */
+/* @import "contact.css"; */
+/* @import "marketing.css"; */
+/* @import "sponsors.css"; */
+/* @import "service.css"; */
+/* @import "proposal.css"; */
 @import "headline.css";
-@import "service.css";
-@import "proposal.css";
 @import "link.css";
 @import "cases.css";
 @import "work-process.css";
 @import "team.css";
 @import "feedback.css";
-@import "contact.css";
-@import "footer.css";
 @import "touchable.css";
 @import "variables.css";
 
@@ -23,9 +23,18 @@
 @import "components/logo.css";
 @import "components/navigation.css";
 @import "components/social.css";
+@import "components/contact.css";
+@import "components/mailing.css";
+@import "components/copyright.css";
+@import "components/marketing.css";
+@import "components/sponsor.css";
+@import "components/service.css";
+@import "components/proposal.css";
 
 /* sections */
 @import "sections/header.css";
+@import "sections/footer.css";
+@import "sections/body.css";
 
 /* rest */
 @import "common.css";

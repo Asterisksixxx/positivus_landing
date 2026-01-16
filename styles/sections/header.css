@@ -10,6 +10,8 @@
   gap: 64px;
 }
 .header__logo {
+  color: black;
 }
-.header__navigation {
+.header__navigation .navigation__link {
+  color: black;
 }

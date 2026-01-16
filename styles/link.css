@@ -1,8 +1,7 @@
 .link_black {
   color: white;
-  text-decoration: none;
   padding: 20px 35px;
-  background-color: var(--black-wrapper);
+  background-color: var(--wrapper-black);
   border-radius: 15px;
   display: inline-block;
 }
@@ -10,7 +9,7 @@
   color: white;
   text-decoration: none;
   padding: 20px 35px;
-  background-color: var(--black-wrapper);
+  background-color: var(--wrapper-black);
   border-radius: 15px;
   align-self: flex-end;
   display: inline-block;

@@ -18,7 +18,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--black-wrapper);
+  background-color: var(--wrapper-black);
   border-radius: 45px;
 }
 .scroll-container {
@@ -59,7 +59,7 @@
   width: 30px;
   height: 30px;
   position: absolute;
-  background-color: var(--black-wrapper);
+  background-color: var(--wrapper-black);
   border: 2px solid #b9ff66;
   border-top: none;
   border-right: none;

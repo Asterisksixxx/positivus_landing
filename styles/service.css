@@ -1,8 +1,4 @@
-.services__headline {
-  padding: 0 100px;
-}
 .services__list {
-  padding: 80px 100px 100px 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -60,6 +56,10 @@
 
 .link-text {
 }
-.services-card:nth-child(3n) > .card-block > .card-block__link > .link-text {
+.service-card:nth-child(3n)
+  > .card-block
+  > .card-block__link
+  > .link-text
+  > h4 {
   color: white;
 }

@@ -1,7 +1,15 @@
-.sponsors {
+.sponsor {
+}
+.sponsor__container {
+}
+.sponsor__body {
+}
+.sponsor__list {
   display: flex;
   gap: 40px;
   justify-content: space-between;
   align-items: center;
   overflow: auto;
+}
+.sponsor__item {
 }
