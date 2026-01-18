@@ -1,4 +1,5 @@
 .process__list {
+  padding-top: var(--component-padding);
   display: flex;
   flex-direction: column;
   gap: 30px;

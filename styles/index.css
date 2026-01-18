@@ -19,6 +19,7 @@
 @import "components/team.css";
 @import "components/feedback.css";
 @import "components/headline.css";
+@import "components/question.css";
 
 /* sections */
 @import "sections/header.css";
