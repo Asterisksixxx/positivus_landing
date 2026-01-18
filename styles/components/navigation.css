@@ -1,5 +1,3 @@
-.navigation {
-}
 .navigation__list {
   display: flex;
   align-items: center;
@@ -15,10 +13,4 @@
 }
 .navigation__item:active {
   transform: scale(0.9);
-}
-
-.navigation__link {
-}
-
-.navigation__text {
 }

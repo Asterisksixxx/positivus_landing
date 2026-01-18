@@ -1,11 +1,3 @@
-.service {
-}
-.service__container {
-}
-.service__body {
-}
-.service__headline {
-}
 .service__list {
   display: flex;
   flex-direction: row;
