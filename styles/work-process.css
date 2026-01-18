@@ -1,18 +1,14 @@
 .work-process__headline {
-  padding: 0 100px;
 }
 .work-process__block {
-  padding: 80px 100px 140px 100px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
 }
 .process-panel {
   transition: 1s;
   background-color: #f3f3f3;
   flex: 1;
   padding: 40px 60px;
-  border: 2px solid rgb(129, 128, 128);
+  /* border: 2px solid rgb(129, 128, 128); */
+  border: 2px solid black;
   border-radius: 45px;
   box-shadow: 0px 2px 2px 0px rgb(129, 128, 128);
 }
@@ -28,34 +24,20 @@
   transition: all 1s ease;
   background-color: #b9ff66;
 }
-.process-panel:not([open]) .panel-header__button_plus {
-  display: block;
-}
-.process-panel[open] .panel-header__button_plus {
-  display: none;
-}
-.process-panel:not([open]) .panel-header__button_minus {
-  display: none;
-}
-.process-panel[open] .panel-header__button_minus {
-  display: block;
-}
+
 .panel-header {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 30px;
   outline: none;
 }
-.panel-header__number {
-}
+
 .panel-header__title {
   flex: 1;
 }
 .process-panel__description {
   padding-top: 30px;
   margin-top: 30px;
-
   border-top: 3px solid black;
   transition: 1s;
 }

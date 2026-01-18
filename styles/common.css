@@ -27,7 +27,7 @@
   text-wrap: nowrap;
 }
 ._button-black {
-  color: white;
+  color: var(--text-color-white);
   padding: 20px 35px;
   background-color: var(--wrapper-black);
   border-radius: 15px;

@@ -1,0 +1,73 @@
+.feedback {
+}
+.feedback__container {
+}
+.feedback__body {
+}
+.feedback__headline {
+}
+.feedback__slider {
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
+  background-color: var(--wrapper-black);
+  border-radius: 45px;
+}
+.slider {
+}
+.slider__container {
+  padding: 80px 0 200px 0;
+  display: flex;
+  gap: 50px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  user-select: none;
+  -webkit-overflow-scrolling: touch;
+}
+.feedback__page {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  scroll-snap-align: center;
+  gap: 40px;
+}
+.page {
+}
+.feedback__text {
+  border: 2px solid var(--text-color-lightgreen);
+  border-radius: 45px;
+  color: var(--text-color-white);
+  padding: 50px;
+  position: relative;
+  line-height: 1.7em;
+}
+.feedback__decoration {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: var(--wrapper-black);
+  border: 2px solid var(--text-color-lightgreen);
+  border-top: none;
+  border-right: none;
+  bottom: -17px;
+  left: 15%;
+  rotate: -45deg;
+}
+.feedback__sender {
+  margin-left: 15%;
+  line-height: 2em;
+}
+.sender {
+}
+.sender__name {
+  color: var(--text-color-lightgreen);
+}
+.sender__post {
+  color: var(--text-color-white);
+}
+.feedback-page__area {
+  flex: 0 0 30%;
+}

@@ -8,6 +8,6 @@
   align-items: center;
 }
 .headline__title {
-  background-color: #b9ff66;
+  background-color: var(--wrapper-lightgreen);
   padding: 7px;
 }

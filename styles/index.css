@@ -1,23 +1,8 @@
 @import "reset.css";
 @import "fonts.css";
-/* deprecated */
-/* @import "navigation.css"; */
-/* @import "footer.css"; */
-/* @import "contact.css"; */
-/* @import "marketing.css"; */
-/* @import "sponsors.css"; */
-/* @import "service.css"; */
-/* @import "proposal.css"; */
-@import "headline.css";
-@import "link.css";
-@import "cases.css";
-@import "work-process.css";
-@import "team.css";
-@import "feedback.css";
+
 @import "touchable.css";
 @import "variables.css";
-
-/* new */
 
 /* components */
 @import "components/logo.css";
@@ -30,6 +15,11 @@
 @import "components/sponsor.css";
 @import "components/service.css";
 @import "components/proposal.css";
+@import "components/cases.css";
+@import "components/process.css";
+@import "components/team.css";
+@import "components/feedback.css";
+@import "components/headline.css";
 
 /* sections */
 @import "sections/header.css";

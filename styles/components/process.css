@@ -1,0 +1,75 @@
+.process {
+}
+.process__container {
+}
+.process__body {
+}
+.process__headline {
+}
+.process__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.process__item {
+  transition: all 1s ease;
+  background-color: var(--wrapper-gray);
+  flex: 1;
+  padding: 40px 60px;
+  border: 2px solid var(--wrapper-black);
+  border-radius: 45px;
+  box-shadow: 0px 2px 2px 0px rgb(129, 128, 128);
+}
+
+.process__title {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  outline: none;
+}
+.process__number {
+}
+.process__name {
+  flex: 1;
+}
+.process__description {
+  padding-top: 30px;
+  margin-top: 30px;
+  border-top: 3px solid var(--wrapper-black);
+  transition: 1s;
+}
+
+.process__button {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 3px solid var(--wrapper-black);
+  border-radius: 50%;
+}
+
+.process__button::before,
+.process__button::after {
+  position: absolute;
+  background-color: var(--wrapper-black);
+  width: 60%;
+  height: 4px;
+  content: "";
+  display: block;
+  transition: all 1s ease;
+}
+.process__button::before {
+  top: 50%;
+  left: 20%;
+  transform: translate(0, -50%);
+}
+.process__button::after {
+  top: 50%;
+  left: 20%;
+  transform: translate(0, -50%) rotate(90deg);
+}
+.process__item[open] .process__button::after {
+  transform: translate(0, -50%) rotate(-360deg);
+}
+.process__item[open] {
+  background-color: var(--wrapper-lightgreen);
+}

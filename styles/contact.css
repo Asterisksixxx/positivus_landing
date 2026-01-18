@@ -8,7 +8,6 @@
   background-color: var(--wrapper-gray);
   border-radius: 45px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
@@ -22,12 +21,10 @@
 }
 .contact-radios {
   display: flex;
-  flex-direction: row;
   justify-content: start;
   gap: 35px;
 }
 .radio-group {
-  padding-bottom: 15px;
 }
 .contact-radio {
   accent-color: #b9ff66;

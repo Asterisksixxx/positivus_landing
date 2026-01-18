@@ -1,16 +1,13 @@
 .cases {
-  padding: 80px 100px 140px 100px;
 }
 .cases__headline {
-  padding-bottom: 80px;
 }
 .cases-block {
-  padding: 70px 60px 70px 60px;
+  padding: 70x 60px;
   background-color: var(--wrapper-black);
   border-radius: 45px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 64px;
